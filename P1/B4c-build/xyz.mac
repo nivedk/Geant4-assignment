@@ -1,0 +1,29 @@
+/gps/particle proton
+
+/gps/pos/type Point
+
+/gps/pos/centre 0. 0. 0. cm
+
+#/gps/ang/type iso
+
+/gps/energy 1.0 GeV
+/gps/direction 0 0 1
+/run/beamOn
+
+# Second gamma, intensity is twice the intensity of the first gamma
+
+/gps/source/add 2.
+
+/gps/particle proton
+
+/gps/pos/type Point
+
+/gps/pos/centre 0. 0. 0. cm
+
+#/gps/ang/type iso
+
+/gps/energy 1.0 GeV
+/gps/direction 0 0 1
+
+/globalField/setValue 0 20 0 T
+/run/beamOn

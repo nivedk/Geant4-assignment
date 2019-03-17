@@ -1,0 +1,12 @@
+/gps/particle gamma
+/gps/pos/type Surface
+/gps/pos/shape Cylinder
+/gps/pos/centre 2. 2. 2. cm
+/gps/pos/radius 2.5 cm
+/gps/pos/halfz 5. cm
+/gps/ang/type cos
+/gps/ene/type Cdg
+/gps/ene/min 20 keV
+/gps/ene/min 20. keV
+/gps/ene/max 1. MeV
+/gps/ene/calculate 

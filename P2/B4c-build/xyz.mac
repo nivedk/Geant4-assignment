@@ -1,0 +1,9 @@
+# setting the detector position at one end of world
+/gps/particle pi-
+/gps/position 0 0 -6 m
+/gps/energy 171.7 MeV
+/gps/ang/type iso
+#20000 because approximately half of them will come out of the back wall
+#/gps/direction 0 0 1
+/globalField/setValue 0 0 2.4 T
+/run/beamOn 10000
